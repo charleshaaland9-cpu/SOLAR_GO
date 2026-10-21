@@ -145,6 +145,13 @@ $customer_name = $_SESSION["full_name"] ?? "Customer";
             &nbsp; | &nbsp;
             <a href="../auth/logout.php">Logout</a>
         </nav>
+        <ul class="nav-links" id="navLinks">
+                <li><a href="index.php" class="active">Home</a></li>
+                <li><a href="products.php">Products</a></li>
+                <li><a href="services.php">Services</a></li>
+                <li><a href="about.php">About Us</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
 
     </header>
 
